@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <RootNamespace>AvalonDock.Themes</RootNamespace>
-    <TargetFrameworks>netcoreapp3.0;net4</TargetFrameworks>
-    <UseWPF>true</UseWPF>
+		<TargetFrameworks>net5.0-windows</TargetFrameworks>
+		<UseWPF>true</UseWPF>
     <AssemblyOriginatorKeyFile>sn.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

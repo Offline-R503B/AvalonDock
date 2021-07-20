@@ -1,22 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <RootNamespace>AvalonDock.Themes</RootNamespace>
-    <TargetFrameworks>netcoreapp3.0;net4</TargetFrameworks>
-    <UseWPF>true</UseWPF>
+		<TargetFrameworks>net5.0-windows</TargetFrameworks>
+		<UseWPF>true</UseWPF>
     <AssemblyOriginatorKeyFile>sn.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>4.50.1</Version>
-    <AssemblyVersion>4.50.1</AssemblyVersion>
-    <FileVersion>4.50.1</FileVersion>
+    <Version>4.50.4</Version>
+    <AssemblyVersion>4.50.4</AssemblyVersion>
+    <FileVersion>4.50.4</FileVersion>
     <Company>Open Source</Company>
-    <Product>Dirkster.AvalonDock</Product>
-    <Copyright>2017-2020</Copyright>
-    <Description>This assembly implements a docking layout system for WPF.</Description>
+    <Product>WolvenKit.AvalonDock</Product>
+    <Copyright>2017-2022</Copyright>
+    <Description>This assembly implements a docking layout system for WPF. With Mahapps theming support from the get go, All credits go to Dirkster99.
+
+</Description>
     <PackageProjectUrl>https://github.com/Dirkster99/AvalonDock</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Dirkster99/AvalonDock</RepositoryUrl>
-    <PackageId>Dirkster.AvalonDock.Themes.VS2013</PackageId>
-    <Authors>https://github.com/Dirkster99/AvalonDock</Authors>
+    <PackageId>WolvenKit.AvalonDock.Themes.VS2013</PackageId>
+    <Authors>- https://github.com/Dirkster99/AvalonDock</Authors>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
@@ -28,6 +30,10 @@
   <ItemGroup>
     <None Include="LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.3" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\AvalonDock\AvalonDock.csproj" />

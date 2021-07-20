@@ -1,10 +1,11 @@
-﻿using System.IO;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 
 namespace AvalonDock.MVVMTestApp
 {
 	using AvalonDock.Layout.Serialization;
+	using ControlzEx.Theming;
 
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
@@ -118,6 +119,12 @@ namespace AvalonDock.MVVMTestApp
 		{
 			// Uncomment when TRACE is activated on AvalonDock project
 			//dockManager.Layout.ConsoleDump(0);
+		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			ThemeManager.Current.ChangeTheme(Application.Current, "Dark.Green");
+			//AvalonDock.Themes.Vs2013DarkTheme.ConnectToMe();
 		}
 	}
 }

@@ -1,4 +1,4 @@
-﻿<Window
+<Window
 	x:Class="AvalonDock.MVVMTestApp.MainWindow"
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -117,5 +117,6 @@
 				</LayoutPanel>
 			</LayoutRoot>
 		</DockingManager>
-	</Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="200,114,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
 </Window>

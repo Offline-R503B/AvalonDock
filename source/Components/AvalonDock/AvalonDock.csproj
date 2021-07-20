@@ -1,21 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <RootNamespace>AvalonDock</RootNamespace>
-    <TargetFrameworks>netcoreapp3.0;net4</TargetFrameworks>
+    <TargetFrameworks>net5.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>sn.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>4.50.1</Version>
-    <AssemblyVersion>4.50.1</AssemblyVersion>
-    <FileVersion>4.50.1</FileVersion>
+    <Version>4.50.4</Version>
+    <AssemblyVersion>4.50.4</AssemblyVersion>
+    <FileVersion>4.50.4</FileVersion>
     <Company>Open Source</Company>
-    <Product>Dirkster.AvalonDock</Product>
+    <Product>WolvenKit.AvalonDock</Product>
     <Copyright>2017-2020</Copyright>
-    <Description>This assembly implements a docking layout system for WPF.</Description>
+    <Description>This assembly implements a docking layout system for WPF. Main Lib all credits go to Dirkster99</Description>
     <PackageProjectUrl>https://github.com/Dirkster99/AvalonDock</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Dirkster99/AvalonDock</RepositoryUrl>
-    <PackageId>Dirkster.AvalonDock</PackageId>
+    <PackageId>WolvenKit.AvalonDock</PackageId>
     <Authors>https://github.com/Dirkster99/AvalonDock</Authors>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>

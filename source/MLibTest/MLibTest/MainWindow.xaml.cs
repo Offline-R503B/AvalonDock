@@ -1,4 +1,4 @@
-﻿namespace MLibTest
+namespace MLibTest
 {
 	using MLibTest.Models;
 	using MLibTest.ViewModels;
@@ -216,7 +216,7 @@
 			// in build Tab of MLibTest project and AvalonDock project
 			// to generate trace in output window
 #if TRACE
-			dockManager.Layout.ConsoleDump(0);
+			//dockManager.Layout.ConsoleDump(0);
 #endif
 		}
 		#endregion methods
